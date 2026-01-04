@@ -1,0 +1,110 @@
+body {
+    border: 2px solid #333;
+    margin: 1rem;
+    padding: 1.5rem;
+    font-family: 'Chewy', cursive;
+}
+
+nav ul {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    gap: 20px;
+    padding: 0.9rem;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.intro {
+    text-align: center;
+}
+
+hr {
+    border: 1px double #333;
+}
+
+.projects {
+    border: 2px solid #333;
+    padding: 1rem;
+}
+
+.projects ul {
+    display: inline;
+    line-height: 1.9;
+}
+
+.projects li {
+    list-style-type: none;
+    border-bottom: 2px solid #333;
+}
+
+.work-experience {
+    border: 2px solid #333;
+    padding: 1rem;
+}
+
+.work-experience ul {
+    display: inline;
+    line-height: 1.9;
+}
+
+.education {
+    border: 2px solid #333;
+    padding: 1rem;
+}
+
+.education ul {
+    display: inline;
+    line-height: 1.5;
+}
+
+.education li {
+    list-style-type: none;
+}
+
+.review {
+    display: grid;
+    flex-direction: row;
+    margin: 2rem;
+}
+
+blockquote {
+    border: 2px solid #333;
+    border-radius: 30px;
+    padding: 3.5rem;
+}
+
+.main-content {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.column {
+    flex: 1;
+}
+
+footer.ending {
+    text-align: center;
+    margin-top: 3rem;
+    border-top: 2px solid #333;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+    .sidebar {
+        position: static;
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid #333;
+    }
+}
